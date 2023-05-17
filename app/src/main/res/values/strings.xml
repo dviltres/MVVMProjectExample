@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MVVM.Project.Example</string>
+    <string name="no_results">No results</string>
+    <string name="search">Search</string>
+    <string name="kcal_per_100g">%dkcal / 100g</string>
+    <string name="carbs">Carbs</string>
+    <string name="grams">g</string>
+    <string name="protein">Protein</string>
+    <string name="fat">Fat</string>
+    <string name="product_does_not_exist">The product does not exist</string>
+    <string name="nutrient_info">Nutrient Information</string>
+</resources>
