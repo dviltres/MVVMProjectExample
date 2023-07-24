@@ -3,20 +3,17 @@ package com.dviltres.mvvmprojectexample.domain.use_case
 import com.dviltres.mvvmprojectexample.data.util.Resource
 import com.dviltres.mvvmprojectexample.domain.model.Product
 import com.dviltres.mvvmprojectexample.domain.repository.ProductRepository
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flow
+import com.dviltres.mvvmprojectexample.presentation.util.UiText
 import javax.inject.Inject
 
 class SearchProducts @Inject constructor(
     private val repository: ProductRepository
 ) {
-    operator fun invoke(
-        query: String,
-        page: Int = 1,
-        pageSize: Int = 40
-    ): Flow<Resource<List<Product>>> = flow {
-        emit(Resource.Loading())
-        val products = repository.searchProducts(query.trim(), page, pageSize)
-        emit(products)
+   suspend operator fun invoke(query: String, page: Int = 1, pageSize: Int = 40): Resource<List<Product>>{
+       return try {
+           repository.searchProducts(query.trim(), page, pageSize)
+       } catch (e:Exception){
+           Resource.Error(UiText.DynamicString(e.message.toString()))
+       }
     }
 }

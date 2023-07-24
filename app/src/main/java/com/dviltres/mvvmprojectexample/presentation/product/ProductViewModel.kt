@@ -45,8 +45,8 @@ class ProductViewModel @Inject constructor(
 
     private fun searchProducts(){
         viewModelScope.launch {
-            state = state.copy(products = emptyList())
-            productUseCases.searchProducts(state.query).collect { result->
+            state = state.copy(products = emptyList(), isLoading = true)
+            productUseCases.searchProducts(state.query).let { result->
                 when(result){
                     is Resource.Loading -> {
                         state = state.copy(isLoading = true)

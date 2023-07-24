@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.material:material-ripple:1.4.3@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5224964aada581fb3c41c0110fc4df64/transformed/material-ripple-1.4.3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5224964aada581fb3c41c0110fc4df64/transformed/material-ripple-1.4.3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5224964aada581fb3c41c0110fc4df64/transformed/material-ripple-1.4.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1050290f3b1d2343f43d0e489b8168ee/transformed/material-ripple-1.4.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1050290f3b1d2343f43d0e489b8168ee/transformed/material-ripple-1.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1050290f3b1d2343f43d0e489b8168ee/transformed/material-ripple-1.4.3/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

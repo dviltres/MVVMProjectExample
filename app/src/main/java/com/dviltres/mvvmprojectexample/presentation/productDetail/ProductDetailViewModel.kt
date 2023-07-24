@@ -46,7 +46,8 @@ class ProductDetailViewModel @Inject constructor(
 
     private fun getProduct(productCode: String) {
         viewModelScope.launch {
-            productUseCases.getProductByCode(productCode).collect { result->
+            state = state.copy(isLoading = true)
+            productUseCases.getProductByCode(productCode).let { result->
                 when(result){
                     is Resource.Loading -> {
                         state = state.copy(isLoading = true)
@@ -71,11 +72,12 @@ class ProductDetailViewModel @Inject constructor(
 
     private fun setFavoriteProduct() {
         viewModelScope.launch {
+            state = state.copy(isLoading = true)
             val updatedProduct = state.product?.apply {
                 isFavorite = state.isFavorite
             }
             updatedProduct?.let {
-                productUseCases.updateProduct(it).collect { result->
+                productUseCases.updateProduct(it).let { result->
                     when(result){
                         is Resource.Loading -> {
                             state = state.copy(isLoading = true)
