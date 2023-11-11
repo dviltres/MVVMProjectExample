@@ -4,24 +4,24 @@
             "outputFile": "com.dviltres.mvvmprojectexample.app-mergeDebugResources-59:/values-mn/values-mn.xml",
             "map": [
                 {
-                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/6b57d39a3851dd4e3ca9d90892e830eb/transformed/material3-1.0.0/res/values-mn/values-mn.xml",
+                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/16e79d5ba13beda054b9909ac7c237c9/transformed/core-1.10.1/res/values-mn/values-mn.xml",
                     "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,132,211",
-                        "endColumns": "76,78,75",
-                        "endOffsets": "127,206,282"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,454,559,671,790",
+                        "endColumns": "97,101,100,97,104,111,118,100",
+                        "endOffsets": "148,250,351,449,554,666,785,886"
                     },
                     "to": {
-                        "startLines": "11,14,16",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "1018,1283,1445",
-                        "endColumns": "76,78,75",
-                        "endOffsets": "1090,1357,1516"
+                        "startLines": "2,3,4,5,6,7,8,26",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,203,305,406,504,609,721,2252",
+                        "endColumns": "97,101,100,97,104,111,118,100",
+                        "endOffsets": "198,300,401,499,604,716,835,2348"
                     }
                 },
                 {
-                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/7d5fd3a98aa94134a59068511b5bc859/transformed/ui-1.4.3/res/values-mn/values-mn.xml",
+                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/27594c042d264a9c7990213bd1a0eb41/transformed/ui-1.4.3/res/values-mn/values-mn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/d7e70f2634c961adb3792c561c77485d/transformed/core-1.10.1/res/values-mn/values-mn.xml",
+                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/a5709513f95ae29ee1e344b82f68bf99/transformed/material3-1.0.0/res/values-mn/values-mn.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,356,454,559,671,790",
-                        "endColumns": "97,101,100,97,104,111,118,100",
-                        "endOffsets": "148,250,351,449,554,666,785,886"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,132,211",
+                        "endColumns": "76,78,75",
+                        "endOffsets": "127,206,282"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,26",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,203,305,406,504,609,721,2252",
-                        "endColumns": "97,101,100,97,104,111,118,100",
-                        "endOffsets": "198,300,401,499,604,716,835,2348"
+                        "startLines": "11,14,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1018,1283,1445",
+                        "endColumns": "76,78,75",
+                        "endOffsets": "1090,1357,1516"
                     }
                 }
             ]

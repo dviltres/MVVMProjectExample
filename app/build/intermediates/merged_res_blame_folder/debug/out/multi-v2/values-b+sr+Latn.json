@@ -4,24 +4,7 @@
             "outputFile": "com.dviltres.mvvmprojectexample.app-mergeDebugResources-59:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/d7e70f2634c961adb3792c561c77485d/transformed/core-1.10.1/res/values-b+sr+Latn/values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,352,456,560,665,781",
-                        "endColumns": "97,101,96,103,103,104,115,100",
-                        "endOffsets": "148,250,347,451,555,660,776,877"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,26",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,203,305,402,506,610,715,2259",
-                        "endColumns": "97,101,96,103,103,104,115,100",
-                        "endOffsets": "198,300,397,501,605,710,826,2355"
-                    }
-                },
-                {
-                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/7d5fd3a98aa94134a59068511b5bc859/transformed/ui-1.4.3/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/27594c042d264a9c7990213bd1a0eb41/transformed/ui-1.4.3/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/6b57d39a3851dd4e3ca9d90892e830eb/transformed/material3-1.0.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/a5709513f95ae29ee1e344b82f68bf99/transformed/material3-1.0.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "1015,1294,1453",
                         "endColumns": "80,72,79",
                         "endOffsets": "1091,1362,1528"
+                    }
+                },
+                {
+                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/16e79d5ba13beda054b9909ac7c237c9/transformed/core-1.10.1/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,352,456,560,665,781",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "148,250,347,451,555,660,776,877"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,26",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,203,305,402,506,610,715,2259",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "198,300,397,501,605,710,826,2355"
                     }
                 }
             ]

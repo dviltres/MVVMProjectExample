@@ -4,7 +4,7 @@
             "outputFile": "com.dviltres.mvvmprojectexample.app-mergeDebugResources-59:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/d7e70f2634c961adb3792c561c77485d/transformed/core-1.10.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/damianviltres/.gradle/caches/transforms-3/16e79d5ba13beda054b9909ac7c237c9/transformed/core-1.10.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

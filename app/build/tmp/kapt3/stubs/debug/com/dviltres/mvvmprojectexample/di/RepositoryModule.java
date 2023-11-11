@@ -1,7 +1,6 @@
 package com.dviltres.mvvmprojectexample.di;
 
 import com.dviltres.mvvmprojectexample.data.local.MyAppDatabase;
-import com.dviltres.mvvmprojectexample.data.local.ProductDao;
 import com.dviltres.mvvmprojectexample.data.remote.OpenFoodApi;
 import com.dviltres.mvvmprojectexample.data.repository.ProductRepositoryImpl;
 import com.dviltres.mvvmprojectexample.domain.repository.ProductRepository;
